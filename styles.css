@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    gap: 20px;
+
+}
+
+.header{
+    font-size: 50px;
+    font-weight: bold;
+    color:brown
+}
+
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border:2px solid grey;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:500px
+}
+
+.board div{
+    display: flex;
+flex:1;
+
+}
+
+.board div > div{
+    flex:1;
+}
+
+button{
+    font-size: 20px;;
+}
